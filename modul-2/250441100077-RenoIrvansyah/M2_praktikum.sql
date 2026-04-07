@@ -25,7 +25,7 @@ INSERT INTO pasien (id_pasien, nama_pasien, tanggal_lahir, no_telepon) VALUES (1
 
 INSERT INTO rekam_medis (id_rekam, id_pasien, id_dokter, tanggal_periksa, diagnosis) VALUES (1, 2, 1, '2026-04-02', 'demam tinggi'), (2, 1, 2, '2026-04-05', 'muntaber');
 
-  
+
 SELECT*FROM pasien;
 SELECT*FROM rekam_medis;
 
